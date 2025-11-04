@@ -1,0 +1,54 @@
+/* Button styles */
+.btn {
+  width: 200px;
+  height: 50px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 8px;
+  margin: 20px 0;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+  transition: box-shadow 0.3s ease;
+}
+
+.btn:hover {
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+}
+
+/* Toast notification styles */
+.toast {
+  width: 300px;
+  height: 60px;
+  background: #323232;
+  color: white;
+  border-radius: 8px;
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.toast::before {
+  content: " Toast Notification";
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Card styles */
+.card {
+  width: 280px;
+  height: 180px;
+  background: white;
+  border-radius: 12px;
+  margin: 20px 0;
+  padding: 24px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  border: 1px solid #e0e0e0;
+}
+
+.card::before {
+  content: "Card Component";
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
